@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.addEventListener('load', ()=>{
+            const formulario = document.getElementById("formulario");
+            const input = document.getElementById("input");
+            const textarea = document.getElementById("textarea");
+            input.addEventListener('change', (e)=>{
+                console.log("evento change", e.target.value);            
+            })
+            input.addEventListener('keyup', (e)=>{
+                console.log("evento keyup", e.target.value);            
+            })
+            input.addEventListener('keypress', (e)=>{
+                console.log("evento keypress", e.target.value);
+            })
+            input.addEventListener('keydown', (e)=>{
+                console.log("evento keydown", e.target.value);        
+            })
+            textarea.addEventListener('select', (e)=>{
+                console.log("evento select", e.target.value);        
+            })
+            input.addEventListener('blur', (e)=>{
+                console.log("ha perdido el foco", e.target.value);            
+            })
+            input.addEventListener('focus', (e)=>{
+                console.log("ahora tiene el foco", e.target.value);            
+            })
+
+            formulario.addEventListener('submit', ()=>{
+                console.log("se ha enviado");            
+            })
+        })
+        
+    </script>
+    
+</head>
+<body>
+    <h1 id="saludo">Contenido de la pagina</h1>
+    <form id="formulario">
+        <input type="text" id="input" />
+        <textarea id="textarea" rows="20">
+    
+        </textarea>
+    
+        <button type="submit" >Enviar</button>
+    </form>
+    
+
+    
+</body>
+</html>

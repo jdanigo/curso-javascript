@@ -23,11 +23,8 @@ Javascript tiene una curva de aprendizaje pequeña, frente a otros lenguajes, co
 [x] Callstack, Eventloop, MemoryHeap, Callback Queue
 [x] Asincronismo
 [x] Sincronismo
-[ ] Promesas
-[ ] Callbacks
-[ ] Propiedades en javascript
+[x] Promesas
+[x] Callbacks
+[x] Propiedades en javascript
 [ ] Eventos
 [ ] Manipulacion del DOM
-
-
-

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.addEventListener('load', ()=>{
+            const button = document.getElementById("button");
+            button.addEventListener('click', ()=>{
+                console.log("ha presionado click");            
+            })
+            button.addEventListener('dblclick', ()=>{
+                console.log("ha presionado doble click");            
+            })
+            button.addEventListener('contextmenu', ()=>{
+                console.log("ha presionado click derecho");            
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1 id="saludo">Contenido de la pagina</h1>
+    <button type="button" id="button">Boton</button>
+</body>
+</html>

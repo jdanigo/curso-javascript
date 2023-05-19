@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.addEventListener('load', ()=>{
+            const h1Element = document.getElementById("saludo");
+            console.log("mostrando contenido de h1", h1Element);
+
+            setTimeout(()=>{
+                alert("saludando despues de 5 segundos")
+            },5000)
+
+            setInterval(()=>{
+                console.log("mostrando mensaje cada 2 segundos")
+            },2000)
+        })
+    </script>
+</head>
+<body>
+    <h1 id="saludo">Contenido de la pagina</h1>
+</body>
+</html>
