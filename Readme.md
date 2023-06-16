@@ -8,23 +8,23 @@ Javascript tiene una curva de aprendizaje pequeña, frente a otros lenguajes, co
 
 # Todo Javascript
 
-[x] ¿ Que es javascript ?
-[x] Mi primer console log
-[x] Tipos de datos
-[X] Tipos de Variables
-[x] Tipos de console
-[x] Condicionales
-[x] Operadores Logicos
-[x] Funciones
-[x] Estructuras de datos (objetos, arrays)
-[x] Ciclos o Bucles
-[x] Motor V8
-[x] Scope y Hoisting
-[x] Callstack, Eventloop, MemoryHeap, Callback Queue
-[x] Asincronismo
-[x] Sincronismo
-[x] Promesas
-[x] Callbacks
-[x] Propiedades en javascript
-[ ] Eventos
-[ ] Manipulacion del DOM
+- [x] ¿ Que es javascript ?
+- [x] Mi primer console log
+- [x] Tipos de datos
+- [X] Tipos de Variables
+- [x] Tipos de console
+- [x] Condicionales
+- [x] Operadores Logicos
+- [x] Funciones
+- [x] Estructuras de datos (objetos, arrays)
+- [x] Ciclos o Bucles
+- [x] Motor V8
+- [x] Scope y Hoisting
+- [x] Callstack, Eventloop, MemoryHeap, Callback Queue
+- [x] Asincronismo
+- [x] Sincronismo
+- [x] Promesas
+- [x] Callbacks
+- [x] Propiedades en javascript
+- [x] Eventos
+- [x] Manipulacion del DOM
